@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: Geneva, Arial, Helvetica, cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://st4.depositphotos.com/1004423/i/600/depositphotos_249067852-stock-photo-soft-clouds-beautiful-sky-background.jpg");
+  background-size: 100%;
+}
+.wrapper {
+  margin-top: 10%;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  text-align: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+button,
+input {
+  transform: scale(1.1);
+  font-size: 20px;
+  border-radius: 5px;
+  border-color: black;
+  border-style: solid;
+  height: 30px;
+  text-align: center;
+}
+input {
+  width: 160px;
+  margin-bottom: 10px;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
